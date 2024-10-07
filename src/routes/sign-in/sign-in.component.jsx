@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-    signInWithGooglePopup,
-    createUserDocumentFromAuth,
-    signInWithGoogleRedirect
+import { signInWithGooglePopup, createUserDocumentFromAuth,signInWithGoogleRedirect
 } from '../../firebase/utils/firebase.utils';
 
 const SignIn = () => {
